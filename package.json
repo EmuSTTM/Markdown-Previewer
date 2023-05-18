@@ -1,0 +1,23 @@
+{
+  "name": "markdown-previewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://emusttm.github.io/markdown-previewer/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "marked": "^5.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
